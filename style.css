@@ -1,0 +1,67 @@
+body {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+min-height: 100vh;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+border: 10px solid #b88b8b;
+}
+
+.page-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; 
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  font-family: 'Cedarville Cursive';
+  font-size: 40px;
+  text-align: center;
+  padding-top: 2em;
+  color: grey;
+}
+
+#selflove {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+  height:auto;
+  margin:0 auto;
+}
+
+.buttonstyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border-radius: 95%;
+  background-color: #b88b8b;
+  color: black;
+  font-family: 'Cedarville Cursive';
+  font-size: 18px; 
+}
+
+#quoteDisplay {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75%;
+  padding: 20px; 
+}
