@@ -37,16 +37,23 @@ header {
 #selflove {
   display: flex;
   overflow: hidden;
-  width: 100%;
+  width: 80%;
   box-sizing: border-box;
   height:auto;
   margin:0 auto;
+}
+
+#quotehere {
+  width: 80%
+  height: auto;
+  padding: 40px;
 }
 
 .buttonstyle {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 40px;
 }
 
 button {
